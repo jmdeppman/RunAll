@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useLocalStorage } from './hooks/useLocalStorage';
 import { TabType, Shoe, WorkoutSession } from './types';
 import { IntervalTimerTab } from './components/IntervalTimerTab';
-import { EquipmentTab } from './components/EquipmentTab';
+import { EquipmentTab } from './components/TempTab';
 
 export const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState<TabType>('timer');
